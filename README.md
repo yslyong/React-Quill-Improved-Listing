@@ -20,3 +20,20 @@ npm install
 npm start
 ```
 
+## How it work
+
+I will try to explain how the fix work
+
+### Added fixes for sub listing to restarted counting at 1 instate of continuous
+
+To fix the sub listing with continuous listing count on another sub listing.
+
+<img src="https://user-images.githubusercontent.com/64799412/227170137-4c338218-9a7f-44ee-8436-d888aceb29bd.png" />
+
+```
+//Add this CSS to your project will work
+.ql-editor ol {
+  counter-reset: unset !important;
+}
+```
+
