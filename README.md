@@ -26,7 +26,7 @@ I will try to explain how the fix work
 
 ### Added fixes for sub listing to restarted counting at 1 instate of continuous
 
-To fix the sub listing with continuous listing count on another sub listing.
+To fix the sub listing with continuous listing count on another sub listing. It just need a css fix as stated in this section.
 
 <img src="https://user-images.githubusercontent.com/64799412/227170137-4c338218-9a7f-44ee-8436-d888aceb29bd.png" />
 
