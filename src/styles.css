@@ -1,0 +1,11 @@
+.fixes .ql-editor ol {
+  counter-reset: unset !important;
+}
+
+.fixes .ql-editor .indent-no-text {
+  counter-increment: unset !important;
+}
+
+.fixes .ql-editor .indent-no-text::before {
+  content: unset !important;
+}
