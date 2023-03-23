@@ -8,7 +8,7 @@ In this repository contain two fixes for React Quill Listing to make it have a s
 1. Added fixes for sub listing to restarted counting at 1 instate of continuous
 2. Added ability to add empty ordering to the listing
 
-[image](https://user-images.githubusercontent.com/64799412/227168030-ffe9f3a8-cb2e-4f51-a07d-7f55db81de1f.png)
+<img src="https://user-images.githubusercontent.com/64799412/227168030-ffe9f3a8-cb2e-4f51-a07d-7f55db81de1f.png" />
 
 ## Quick Start
 
