@@ -37,3 +37,19 @@ To fix the sub listing with continuous listing count on another sub listing. It 
 }
 ```
 
+### Added ability to add empty ordering to the listing
+
+This fix is to make the React Quill to feel more like .docx editor when editing in lsiting.
+
+First add these to the css for your project
+```
+.fixes .ql-editor .indent-no-text {
+    counter-increment: unset !important;
+}
+
+.fixes .ql-editor .indent-no-text::before {
+    content: unset !important;
+}
+```
+
+and other can refer to [this file](https://github.com/yslyong/React-Quill-Improved-Listing/blob/main/src/QuillEditorFixes.tsx).
